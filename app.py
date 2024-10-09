@@ -29,4 +29,4 @@ if scatter_plot_button:
     fig = px.scatter(car_data, x="odometer", y="price")
 
     # Mostrar el gráfico
-    st.plotly_chart(fig_scatter, use_container_width= True)
+    st.plotly_chart(fig, use_container_width=True)
